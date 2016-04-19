@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SalesDM</Database>
+    <Server>.\multidim</Server>
+    <ConnectionString>DataSource=.\multidim;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>true</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>V8qlr41PoTWfI1g7MoZriDbYyUo=19/04/2016 11:42:54 AM19/04/2016 11:42:54 AM</TimeStamp>
+        <ID>
+          <String>Sales DM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>tc0Qgvv50kSYmiizeKfe5HBdzVs=19/04/2016 11:43:35 AM19/04/2016 11:43:13 AM</TimeStamp>
+        <ID>
+          <String>Sales DM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>a8eVxRpnzi6Clt4vuDEvQtwpO/8=19/04/2016 11:43:54 AM19/04/2016 11:43:54 AM</TimeStamp>
+        <ID>
+          <String>Dim Sales Person</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>77UIeTwNYHb7BoVKTQwJX4WFcHw=19/04/2016 11:43:54 AM19/04/2016 11:43:54 AM</TimeStamp>
+        <ID>
+          <String>Dim Sales Territory</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NufHpgq862sZtkKBqnW4FPfrzp0=19/04/2016 11:43:54 AM19/04/2016 11:43:54 AM</TimeStamp>
+        <ID>
+          <String>Dim Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>FfsfaqRFa1Z/SSLg8IlbYKsb4a0=19/04/2016 11:43:54 AM19/04/2016 11:43:54 AMr2kOe1CD42nr0wnCXoLy2Bi18AE=19/04/2016 11:43:54 AM19/04/2016 11:43:54 AM</TimeStamp>
+        <ID>
+          <String>Sales DM</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>QvbwShpqK8U1XafySacGyL0loig=19/04/2016 11:12:05 AM19/04/2016 11:12:05 AM</TimeStamp>
+      <ID>
+        <String>SalesDM</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2016-04-19T15:45:24.436667Z</LastDeployed>
+</DeploymentSnapshot>
